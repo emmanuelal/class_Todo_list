@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import url(https://fonts.googleapis.com/css?family=Lobster); /* google lobster font */
+ @import url(https://fonts.googleapis.com/css?family=Oswald); /* google Oswald paragraphs font */
+ @import url(https://fonts.googleapis.com/css?family=PT+Serif); /* google PT Serif use for heading tags */
+
+
+
+*{ margin: 0px; padding: 0px; } 
+body{}
+
+h1 , h2 , h3 {
+font-family: 'PT Serif', serif !important;
+color:#181818; 
+font-weight:bold;
+}
+
+p{
+
+font-family: 'Oswald', sans-serif;
+
+}
+
+.logo{font-family: 'Lobster', cursive; font-size: 150% !important; }
+ #main_header {width:100%; height: 3em; background: #181818; color:#fff;}
+.front_page {width: 70%; height: auto;}
+.logged_in_user{}/* show which user is currently logged */
+#todo_list_list_name{ width: 50%; border:thin slid #eee; padding: 0.6%;}
+button {text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+
+#todo_list_list_due_date_1i{
+	background: green !important;
+}
+#todo_list_list_due_date_2i{}
+#todo_list_list_due_date_3i{}
+.actions{margin-top: 5px !important;}
+
+ul.list { width:70%; background: #eee;}
+ul.list li {float:left; display:inline-block; margin-top: 2% !important;}

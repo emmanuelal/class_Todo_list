@@ -1,0 +1,20 @@
+/shared/submission/anything.zip: 0 tests run
+["\n", "Module 4 End-2-End Test\n", "  rq14\n", "   
+
+
+ End to end works from login through TodoList and
+
+ TodoItem operations (FAILED - 1)\n", "\n", "Failures:\n", "\n", "  1) Module 4 End-2-End Test rq14 End to end works from login through TodoList and TodoItem operations\n", "    
+
+
+  Failure/Error: expect(page).to have_content(curItem.due_date)\n", "  
+
+  expected to find text \"2015-11-16\" in \"Logged in as rich | Logout Title: Task 1 Due date: 2015-11-17 Description: very important task TEST Edit| Back\"\n", "   
+
+    # ./spec/end2end_spec.rb:65:in `block (3 levels) in <top (required)>'\n", "   
+
+    # ./spec/end2end_spec.rb:13:in `block (2 levels) in <top (required)>'\n", "\n", "Finished in 8.63 seconds (files took 3.08 seconds to load)\n", "1 example, 1 failure\n", "\n", "Failed examples:\n", "\n", "rspec ./spec/end2end_spec.rb:37 
+
+
+
+    # Module 4 End-2-End Test rq14 End to end works from login through TodoList and TodoItem operations\n", "\n"][]
